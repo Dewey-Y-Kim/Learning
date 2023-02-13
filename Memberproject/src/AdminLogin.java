@@ -19,6 +19,11 @@ public class AdminLogin {
 			this.adminPw = null;
 			this.logStatus = false;
 		}
-		
+	}
+	public void logout() {
+		//로그인 시 세팅한 값 초기화
+		this.adminId = null;
+		this.adminPw = null;
+		this.logStatus = false;
 	}
 }
