@@ -58,8 +58,6 @@ public class BookDTO {
 		this.type = type;
 	}
 	
-	public void listString() {
-		System.out.printf( "%9s\t%20s\t%15s\t%10s\t%9d\n", code, type,title,writer,publisher,cost); 
-	}
+	
 	
 }

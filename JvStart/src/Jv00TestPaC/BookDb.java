@@ -73,7 +73,7 @@ public class BookDb {
 		exit:{
 			for(int i=0; i<library.size();i++) {
 				BookDTO book = library.get(i); 
-				book.listString();
+				book.toString();
 				boolean conti=true;
 				if ((i+1)%10 ==0) {
 					do{
@@ -137,7 +137,7 @@ public class BookDb {
 			case 3 : lib = books.getWriter(); break;
 			case 4 : lib = books.getPublisher(); break;
 			}
-			if(lib.contains(keyword)) books.listString();
+			if(lib.contains(keyword)) books.toString();
 			if ((t+1)%10 ==0) {
 				System.out.println("0 : 종료\t 1: 다음");
 				boolean boo=true;
